@@ -1,6 +1,8 @@
 # yt-playlist
 
-A simple Python command-line tool to download all videos from a YouTube playlist in the best available quality (audio and video merged as MP4) to a folder named after the playlist in your user's Public directory. This is useful for offline viewing and archiving playlists.
+A simple Python command-line tool to download all videos from a YouTube playlist in the best available quality (audio and video merged as MP4) to a folder named after the playlist in your user's Public directory.
+
+This example code is for eduactional purposes. Please respect YouTube Terms of Service and all applicable Copyright laws.
 
 ## Features
 - Downloads all videos from a YouTube playlist

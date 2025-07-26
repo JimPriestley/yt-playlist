@@ -52,4 +52,5 @@ python yt-playlist.py "https://www.youtube.com/playlist?list=PLj6YeMhvp2S4aIxuGH
 ```
 
 ## License
-This project is provided for personal and educational use. Please respect YouTube's Terms of Service and copyright laws when downloading content.
+This project is licensed under the MIT License. See the LICENSE file for details.
+Please respect YouTube's Terms of Service and copyright laws when downloading content.

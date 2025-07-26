@@ -36,14 +36,10 @@ def main():
             print(f"Downloading: {title} (ID: {video_id})")
             video_url = f"https://www.youtube.com/watch?v={video_id}"
             video_opts = {
-                'quiet': False,
+                'quiet': True,
                 'outtmpl': os.path.join(output_dir, '%(title)s.mp4'),
                 'format': 'bestvideo+bestaudio/best',
-                'merge_output_format': 'mp4',
-                'postprocessors': [{
-                    'key': 'FFmpegVideoConvertor',
-                    'preferedformat': 'mp4',
-                }],
+                'merge_output_format': 'mp4'
             }
             with yt_dlp.YoutubeDL(video_opts) as video_ydl:
                 try:
